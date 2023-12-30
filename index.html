@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./icon.ico">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-not-black">
+
+    <!-- Header -->
+
+    <header class="absolute z-20 w-full px-8 py-8 border-b-4 sm:px-16 bg-not-black border-b-some-orange">
+        <div class="flex items-center justify-between max-container">
+            <div class="w-1/2">
+                <a href="#">
+                    <p class="ml-10 text-4xl font-extrabold text-white max-lg:text-3xl font-anonymous">Rydham's <br>
+                        Portfolio</p>
+                </a>
+            </div>
+            <ul class="flex items-center justify-center flex-1 gap-16 max-lg:hidden">
+                <li class="text-xl font-bold leading-normal text-white font-anonymous"><a href="#Home"><button
+                            class="transition-all hover:border-b-2 hover:border-white hover:transition-all">Home</button></a>
+                </li>
+                <li class="text-xl font-bold leading-normal text-white font-anonymous"><a href="#About"><button
+                            class="transition-all hover:border-b-2 hover:border-white hover:transition-all">About</button></a>
+                </li>
+                <li class="text-xl font-bold leading-normal text-white font-anonymous"><a href="#Services"><button
+                            class="transition-all hover:border-b-2 hover:border-white hover:transition-all">Services</button></a>
+                </li>
+                <li class="text-xl font-bold leading-normal text-white font-anonymous"><a href="#Projects"><button
+                            class="transition-all hover:border-b-2 hover:border-white hover:transition-all">Projects</button></a>
+                </li>
+                <li class="text-xl font-bold leading-normal text-white font-anonymous"><a href="#Contact"><button
+                            class="transition-all hover:border-b-2 hover:border-white hover:transition-all">Contact</button></a>
+                </li>
+            </ul>
+            <div class="cursor-pointer lg:hidden">
+                <img src="./hamburger.svg" alt="hamburger" height="29">
+            </div>
+        </div>
+    </header>
+    <!-- Home -->
+
+    <section class="flex flex-col justify-center w-full min-h-screen gap-10 xl:flex-row max-container" id="Home">
+        <div
+            class="relative flex flex-col items-start justify-center w-full xl:w-1/2 max-xl:padding-x max-container pt-28">
+            <h4
+                class="m-10 font-anonymous text-4xl max-lg:text-[32px] max-lg:leading-[32px] max-lg:mt-28 font-bold text-white">
+                Hey It's me</h4>
+
+            <h1
+                class="max-lg:ml-10 lg:m-10 font-anonymous text-8xl max-sm:text-[42px] max-sm:leading-[72px] font-bold w-full text-white">
+                Rydhampreet Singh Gindra
+            </h1>
+            <h4
+                class="relative top-2 lg:m-10 max-lg:mx-10 font-anonymous text-5xl max-lg:text-[32px] max-lg:leading-[62px] font-bold text-white">
+                I am a <span class=" text-some-orange Animation whitespace-nowrap">Web
+                    Developer.</span> </h4>
+            <div class="text-2xl max-lg:text-[14px] max-lg:leading-6 leading-10 lg:m-10 max-lg:m-10 font-anonymous ">
+                <p class="text-white">I am a developer and I love coffee. Take me out on lunch sometimes I deserve it.
+                </p>
+            </div>
+            <div class="mx-10">
+                <button
+                    class="px-4 py-2 my-4 text-white transition-all border-2 rounded-3xl border-some-orange hover:bg-some-orange hover:transition-all font-anonymous lg:text-[1.3rem] hover:shadow-md hover:border-transparent hover:shadow-some-orange">Download
+                    Resume</button>
+            </div>
+        </div>
+        <div class="flex items-center justify-center lg:w-1/2 max-lg:hidden">
+            <div class="p-10">
+                <div class="overflow-hidden border-8 rounded-full shadow-md shadow-darker-orange border-some-orange">
+                    <img src="./MEAGAIN2.jpg"
+                        class="rounded-full h-[34rem] max-lg:h-[20rem] hover:scale-105 hover:transition-slow transition-slow shad"
+                        alt="My Pic" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About -->
+
+    <section class="flex flex-col px-8 py-12 max-container max-sm:mt-12 sm:px-16 sm:py-14" id="About">
+        <div class="self-center">
+            <h1 class="font-extrabold text-white text-8xl font-anonymous max-lg:text-6xl max-lg:mx-10">About
+                <span class="text-some-orange">Me</span>
+            </h1>
+        </div>
+        <div class="py-10 text-white max-lg:p-10">
+            <h4 class="font-bold underline max-lg:text-3xl font-anonymous lg:text-5xl text-some-orange">Web Developer
+                </h3>
+                <p class="my-10 lg:text-4xl max-lg:text-base lg:leading-10 font-[100] max-lg:font-[100] font-anonymous">
+                    I am an aspiring Web Developer. My collaborative approach and commitment to continuous learning
+                    drive my passion for delivering high-quality results. I'm ready to contribute my skills to impactful
+                    projects and continue growing in the dynamic field of Web Development</p>
+                <h4 class="font-bold underline max-lg:text-3xl font-anonymous lg:text-5xl text-some-orange">Public
+                    Speaker</h3>
+                    <p
+                        class="my-10 lg:text-4xl max-lg:text-base lg:leading-10 font-[100] max-lg:font-[100] font-anonymous">
+                        Only God knows my love for public speaking and I believe I am quite a good speaker except for
+                        when it comes to some certain situations.</p>
+        </div>
+
+        <!-- <div>
+            <button class="px-10 text-2xl font-bold text-white transition-all border-2 border-transparent rounded-full lg:py-6 bg-some-orange font-anonymous max-lg:mx-10 max-lg:text-xl max-lg:py-4 max-lg:px-6 hover:bg-not-black hover:border-4 hover:border-some-orange hover:transition-all">Learn More</button>
+        </div> -->
+    </section>
+
+    <!-- Services -->
+
+    <section class="flex flex-col items-center flex-1 px-8 py-12 max-container max-sm:mt-12 sm:px-16" id="Services">
+        <div class="justify-self-start">
+            <h4
+                class="font-extrabold text-white max-lg:heavy-bold font-anonymous text-8xl max-lg:text-[2.50rem] max-lg:mx-10">
+                My <span class="text-some-orange">Services</span> </h1>
+        </div>
+        <div
+            class="grid w-full gap-10 px-6 py-12 max-lg:px-6 max-lg:py-15 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center">
+            <div
+                class="flex flex-col items-center flex-1 w-full h-full px-10 py-12 my-10 transition-all rounded-2xl bg-some-orange hover:shadow-2xl hover:shadow-darker-orange hover:scale-105 hover:transition-all">
+                <img src="data:image/svg+xml,%3csvg%20width='50'%20height='45'%20viewBox='0%200%20110%20105'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M91.3975%202.39911C93.6206%200.687546%2096.3909%20-0.156698%2099.1911%200.0240025C101.991%200.204703%20104.63%201.39799%20106.615%203.38108C108.599%205.36417%20109.794%208.00149%20109.976%2010.8006C110.158%2013.5998%20109.314%2016.3694%20107.603%2018.5924L82.7049%2051.1396C75.6963%2060.3004%2066.7601%2067.8103%2056.5281%2073.1383C55.263%2068.417%2052.7767%2064.1118%2049.3193%2060.6557C45.8619%2057.1995%2041.5552%2054.7141%2036.8323%2053.4494C42.1631%2043.2234%2049.6755%2034.2926%2058.8388%2027.2881L91.3975%202.39911ZM29.6595%2061.7807C24.7438%2061.7807%2020.0295%2063.7328%2016.5537%2067.2074C13.0778%2070.682%2011.1251%2075.3946%2011.1251%2080.3085C11.1261%2080.8333%2010.9934%2081.3497%2010.7393%2081.809C10.4853%2082.2682%2010.1184%2082.6552%209.67322%2082.9333C9.22805%2083.2114%208.71931%2083.3716%208.19503%2083.3986C7.67076%2083.4256%207.14825%2083.3186%206.67682%2083.0877C5.84642%2082.6799%204.91289%2082.5299%203.99646%2082.657C3.08003%2082.7842%202.22268%2083.1827%201.5348%2083.8013C0.846932%2084.4198%200.360045%2085.23%200.136848%2086.1276C-0.086348%2087.0252%20-0.0356328%2087.969%200.282462%2088.8375C2.28838%2094.2765%206.14335%2098.8374%2011.1731%20101.722C16.2028%20104.607%2022.0871%20105.633%2027.7967%20104.619C33.5063%20103.606%2038.6778%20100.618%2042.4064%2096.1785C46.1351%2091.7388%2048.1837%2086.1301%2048.1938%2080.3332V80.3085C48.1878%2076.8663%2047.2258%2073.4934%2045.415%2070.5656C43.6043%2067.6377%2041.0158%2065.27%2037.9382%2063.7261C35.3675%2062.4429%2032.5328%2061.7767%2029.6595%2061.7807Z'%20fill='white'/%3e%3c/svg%3e" height="40" width="40" alt="UI/UX">
+                <h3 class="w-full p-10 text-3xl text-center text-white font-anonymous">UI/UX Designer</h3>
+                <p class="text-2xl text-center text-white font-anonymous max-lg:text-xl">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Optio magnam, numquam, aspernatur impedit tenetur ad porro deserunt in
+                    repellendus laboriosam ab? Corporis amet vel aliquid fugiat aliquam, ratione autem eveniet.</p>
+            </div>
+            <div
+                class="flex flex-col items-center flex-1 w-full h-full px-10 py-12 my-10 rounded-2xl bg-some-orange hover:shadow-2xl hover:shadow-darker-orange hover:scale-105 hover:transition-all">
+                <img src="./React.svg" height="40" width="40" alt="UI/UX">
+                <h3 class="w-full p-10 text-3xl text-center text-white font-anonymous">Web Developer</h3>
+                <p class="text-2xl text-center text-white font-anonymous max-lg:text-xl">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Optio magnam, numquam, aspernatur impedit tenetur ad porro deserunt in
+                    repellendus laboriosam ab? Corporis amet vel aliquid fugiat aliquam, ratione autem eveniet.</p>
+            </div>
+            <div
+                class="flex flex-col items-center flex-1 w-full h-full px-10 py-12 my-10 rounded-2xl bg-some-orange hover:shadow-2xl hover:shadow-darker-orange hover:scale-105 hover:transition-all">
+                <img src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_7_21)'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M20%206.66667C21.425%206.66667%2022.8866%206.70333%2024.3033%206.76333L25.9766%206.84333L27.5783%206.93833L29.0783%207.04L30.4483%207.14667C31.9351%207.26046%2033.3341%207.89491%2034.3992%208.9384C35.4643%209.98189%2036.1274%2011.3676%2036.2716%2012.8517L36.3383%2013.56L36.4633%2015.0767C36.58%2016.6483%2036.6666%2018.3617%2036.6666%2020C36.6666%2021.6383%2036.58%2023.3517%2036.4633%2024.9233L36.3383%2026.44C36.3166%2026.6833%2036.295%2026.9183%2036.2716%2027.1483C36.1273%2028.6327%2035.464%2030.0186%2034.3986%2031.0621C33.3331%2032.1056%2031.9337%2032.7399%2030.4466%2032.8533L29.08%2032.9583L27.58%2033.0617L25.9766%2033.1567L24.3033%2033.2367C22.8697%2033.299%2021.4349%2033.3312%2020%2033.3333C18.565%2033.3312%2017.1303%2033.299%2015.6966%2033.2367L14.0233%2033.1567L12.4216%2033.0617L10.9216%2032.9583L9.55165%2032.8533C8.0649%2032.7395%206.6659%2032.1051%205.60077%2031.0616C4.53564%2030.0181%203.8726%2028.6324%203.72831%2027.1483L3.66165%2026.44L3.53665%2024.9233C3.40921%2023.2852%203.34139%2021.643%203.33331%2020C3.33331%2018.3617%203.41998%2016.6483%203.53665%2015.0767L3.66165%2013.56C3.68331%2013.3167%203.70498%2013.0817%203.72831%2012.8517C3.87255%2011.3678%204.53534%209.98236%205.60013%208.93891C6.66492%207.89545%208.06353%207.26084%209.54998%207.14667L10.9183%207.04L12.4183%206.93833L14.0216%206.84333L15.695%206.76333C17.1291%206.70106%2018.5645%206.66883%2020%206.66667ZM16.6666%2015.9583V24.0417C16.6666%2024.8117%2017.5%2025.2917%2018.1666%2024.9083L25.1666%2020.8667C25.319%2020.779%2025.4455%2020.6527%2025.5335%2020.5006C25.6214%2020.3484%2025.6678%2020.1758%2025.6678%2020C25.6678%2019.8242%2025.6214%2019.6516%2025.5335%2019.4994C25.4455%2019.3473%2025.319%2019.221%2025.1666%2019.1333L18.1666%2015.0933C18.0146%2015.0055%2017.8421%2014.9593%2017.6665%2014.9594C17.4909%2014.9594%2017.3184%2015.0057%2017.1664%2015.0935C17.0143%2015.1813%2016.8881%2015.3077%2016.8004%2015.4598C16.7127%2015.6119%2016.6665%2015.7844%2016.6666%2015.96'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_7_21'%3e%3crect%20width='40'%20height='40'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" height="40" width="40" alt="UI/UX">
+                <h3 class="p-10 text-3xl text-center text-white font-anonymous">Youtuber</h3>
+                <p class="text-2xl text-center text-white font-anonymous max-lg:text-xl">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Optio magnam, numquam, aspernatur impedit tenetur ad porro deserunt in
+                    repellendus laboriosam ab? Corporis amet vel aliquid fugiat aliquam, ratione autem eveniet.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section class="flex flex-col items-center flex-1 px-8 pt-12 pb-20 max-container max-sm:mt-12 sm:px-16"
+        id="Projects">
+        <div class="w-full px-8 pb-10 text-center">
+            <h1 class="font-extrabold text-white text-8xl font-anonymous max-lg:text-5xl"> Projects </h1>
+        </div>
+
+        <div class="grid grid-cols-3 gap-10 max-md:grid-cols-2 max-sm:grid-cols-1 rounded-2xl">
+            <div class="transition-slow hover:scale-110 hover:transition-slow">
+                <a href="https://blogs-by-elites.vercel.app/" target="_blank">
+                    <div class="overflow-hidden border-4 rounded-3xl border-some-orange">
+                        <img src="./Blogs By Elites.png" class="" alt="">
+                    </div>
+                    <h4 class="text-3xl text-center text-white font-anonymous">Blogs By Elites</h4>
+                </a>
+            </div>
+            <div class="transition-slow hover:scale-110 hover:transition-slow">
+                <a href="https://nike-landing-page-ten-self.vercel.app/" target="_blank">
+                    <div class="overflow-hidden border-4 rounded-3xl border-some-orange">
+                        <img src="./Nike_Landing-BPccM0WF.png" class="" alt="">
+                    </div>
+                    <h4 class="text-3xl text-center text-white font-anonymous">Nike Landing Page</h4>
+                </a>
+            </div>
+            <div class="transition-slow hover:scale-110 hover:transition-slow">
+                <a href="https://parallax-website-eta-gilt.vercel.app/" target="_blank">
+                    <div class="overflow-hidden border-4 rounded-3xl border-some-orange">
+                        <img src="./Parallax-qGo4WU-b.png" class="" alt="">
+                    </div>
+                    <h4 class="text-3xl text-center text-white font-anonymous">Parallax Website</h4>
+                </a>
+            </div>
+            <!-- <div>
+                <div class="overflow-hidden border-4 rounded-3xl border-some-orange">
+                    <img src="./Blogs By Elites.png" class="" alt="">
+                </div>
+                <h4 class="text-3xl text-center text-white font-anonymous">Blogs By Elites</h4>
+            </div>
+            <div>
+                <div class="overflow-hidden border-4 rounded-3xl border-some-orange">
+                    <img src="./Blogs By Elites.png" class="" alt="">
+                </div>
+                <h4 class="text-3xl text-center text-white font-anonymous">Blogs By Elites</h4>
+            </div>
+            <div>
+                <div class="overflow-hidden border-4 rounded-3xl border-some-orange">
+                    <img src="./Blogs By Elites.png" class="" alt="">
+                </div>
+                <h4 class="text-3xl text-center text-white font-anonymous">Blogs By Elites</h4>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <footer class="grid px-8 py-12 border-t-4 max-sm:mt-12 sm:px-16 place-items-center border-some-orange" id="Contact">
+        <div>
+            <h4 class="text-4xl text-white font-anonymous">Contact Us on:</h4>
+            <br>
+            <p class="text-2xl text-white font-anonymous"> <a href="mailto:singhrydhampreet4@gmail.com" id="mail">Email: singhrydhampreet4@gmail.com</a></p>
+            <br>
+            <p class="text-2xl text-white font-anonymous">Phone Number: +918684048647</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
